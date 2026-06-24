@@ -1,0 +1,29 @@
+{
+  "name": "site-customizer",
+  "version": "0.1.0",
+  "description": "Inject custom CSS/JS into websites by URL glob, via chrome.userScripts (MV3).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/lang-javascript": "^6.2.4",
+    "@uiw/react-codemirror": "^4.25.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.7.0",
+    "@types/chrome": "^0.0.287",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^7.0.0",
+    "vitest": "^3.0.0"
+  }
+}
